@@ -25,7 +25,8 @@ h3 {
   font-weight: bold;
 }
 
-nav {
+nav,
+footer a {
   font-size: 18px;
   color: White;
   font-weight: bold;
@@ -43,22 +44,11 @@ address {
   font-style: normal;
 }
 
-footer,
-footer p {
+footer {
   font-size: 11px;
   background-color: DimGrey;
   color: White;
-}
-
-footer nav,
-footer li,
-footer ul,
-footer p{
-  display: inline-block;
-}
-
-footer {
-  padding-bottom: 0;
+  text-align: left;
 }
 
 section a,
@@ -78,4 +68,8 @@ a:visited {
 section a:hover,
 a:hover {
   color: Gray;
+}
+
+.designed {
+  color: White;
 }
